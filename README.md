@@ -30,13 +30,16 @@ It includes built-in rate-limit handling and throttling to prevent API trigger l
    cd discord-message-scraper
 
 2. Create and activate a virtual environment:
+
    python -m venv venv
    .\venv\Scripts\Activate.ps1
    
 3. Install dependencies:
+
    pip install -r requirements.txt
 
 4. Configure your environment token:
+
    Create a .env file in the main project folder and add the following with your token
    DISCORD_TOKEN=your_discord_token_here
    
