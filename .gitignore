@@ -1,0 +1,20 @@
+# Virtual Environments
+venv/
+bot-env/
+env/
+ENV/
+
+# Sensitive Credentials
+.env
+
+# Exported Data & Output Files
+*.txt
+!requirements.txt
+
+# Python cache / byte-code
+__pycache__/
+*.py[cod]
+
+# IDE / Editor configs
+.vscode/
+.idea/
