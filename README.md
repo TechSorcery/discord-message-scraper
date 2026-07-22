@@ -42,5 +42,18 @@ It includes built-in rate-limit handling and throttling to prevent API trigger l
 
    Create a .env file in the main project folder and add the following with your token
    DISCORD_TOKEN=your_discord_token_here
-   
+
+
+## CLI Usage & Arguments
+   Run the script from your terminal using standard Python CLI arguments:
+      python messagescraper.py -c CHANNEL_ID -u USER_ID -o NameOfOutputTxtFile
+
+      example: 
+         python messagescraper.py -c 123456789012345678 -u 209519164182757377
+         python messagescraper.py -c 123456789012345678 -u 209519164182757377 -o custom_user_log.txt -d 2.0
+
+   Help Menu:
+      python messagescraper.py --help
+
+
    
