@@ -26,4 +26,5 @@ It includes built-in rate-limit handling and throttling to prevent API trigger l
 
 1. **Clone or download the repository:**
    git clone [https://github.com/YourUsername/discord-message-scraper.git](https://github.com/YourUsername/discord-message-scraper.git)
+   
    cd discord-message-scraper
