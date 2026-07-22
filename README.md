@@ -27,5 +27,17 @@ It includes built-in rate-limit handling and throttling to prevent API trigger l
 1. **Clone or download the repository:**
    
    git clone [https://github.com/YourUsername/discord-message-scraper.git](https://github.com/YourUsername/discord-message-scraper.git)
-   
    cd discord-message-scraper
+
+Create and activate a virtual environment:
+   python -m venv venv
+   .\venv\Scripts\Activate.ps1
+   
+Install dependencies:
+   pip install -r requirements.txt
+
+Configure your environment token:
+   Create a .env file in the main project folder and add the following with your token
+   DISCORD_TOKEN=your_discord_token_here
+   
+   
